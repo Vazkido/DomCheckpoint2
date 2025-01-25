@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   chn.addEventListener("click", () => {
     const newColor = getRandomColor(); //Generate random color
     clr.style.backgroundColor = newColor;
-    chn.textContent = newColor;
+    clr.textContent = newColor;
   });
 });
